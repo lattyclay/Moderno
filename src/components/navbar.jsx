@@ -1,5 +1,5 @@
 import { Link, NavLink, useNavigate } from 'react-router-dom'
-import { Home, ShoppingBag, Info, Newspaper, Mail, Search, ShoppingCart, X, Sun, Moon } from 'lucide-react'
+import { Home, ShoppingBag, Info, Newspaper, Mail, Search, ShoppingCart, X, Sun, Moon, User } from 'lucide-react'
 import { useEffect, useState } from 'react'
 import { useCart } from '../context/CartContext'
 import { useTheme } from '../context/ThemeContext'
@@ -101,6 +101,16 @@ export default function Navbar() {
 
             <button
               type="button"
+              title="Account"
+              aria-label="Account"
+              onClick={() => navigate('/login')}
+              className="flex items-center justify-center w-[38px] h-[38px] rounded-full text-stone-200 hover:bg-white/[0.07] transition-colors"
+            >
+              <User size={17} strokeWidth={1.5} aria-hidden="true" />
+            </button>
+
+            <button
+              type="button"
               title={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
               aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
               onClick={toggleTheme}
@@ -182,6 +192,14 @@ export default function Navbar() {
 
           <div className="h-px my-2.5 bg-brown/35" />
 
+          <button
+            type="button"
+            onClick={() => { setMenuOpen(false); navigate('/login') }}
+            className="flex items-center gap-3.5 px-3 py-3 rounded-xl text-stone-400 hover:bg-brown/10 hover:text-brown-light transition-colors"
+          >
+            <User size={18} strokeWidth={1.5} aria-hidden="true" />
+            <span className="text-[13px] tracking-[0.1em] uppercase">Sign In</span>
+          </button>
           <button
             type="button"
             onClick={toggleTheme}

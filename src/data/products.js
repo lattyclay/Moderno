@@ -1,32 +1,32 @@
 export const newArrivals = [
-  { id: 1, name: "Luna 3-Seater Sofa",   price: 799, category: "Living Room", emoji: "🛋️" },
-  { id: 2, name: "Nova Coffee Table",    price: 299, category: "Living Room", emoji: "☕" },
-  { id: 3, name: "Elle Accent Chair",    price: 349, category: "Living Room", emoji: "🪑" },
-  { id: 4, name: "Haven Sideboard",      price: 599, category: "Living Room", emoji: "🗄️" },
-  { id: 5, name: "Woven Pendant Light",  price: 129, category: "Decor",       emoji: "💡" },
+  { id: 1, name: "Luna 3-Seater Sofa",   price: 120000, category: "Living Room", image: "/images/products/sofa.jpg" },
+  { id: 2, name: "Nova Coffee Table",    price: 35000,  category: "Living Room", image: "/images/products/coffee-table.jpg" },
+  { id: 3, name: "Elle Accent Chair",    price: 45000,  category: "Living Room", image: "/images/products/accent-chair.jpg" },
+  { id: 4, name: "Haven Sideboard",      price: 75000,  category: "Living Room", image: "/images/products/sideboard.jpg" },
+  { id: 5, name: "Woven Pendant Light",  price: 15000,  category: "Decor",       image: "/images/products/pendant-light.jpg" },
 ]
 
 export const allProducts = [
   // Living Room
-  { id: 1,  name: "Luna 3-Seater Sofa",    price: 799, category: "Living Room", emoji: "🛋️" },
-  { id: 2,  name: "Nova Coffee Table",     price: 299, category: "Living Room", emoji: "☕" },
-  { id: 3,  name: "Elle Accent Chair",     price: 349, category: "Living Room", emoji: "🪑" },
-  { id: 4,  name: "Haven Sideboard",       price: 599, category: "Living Room", emoji: "🗄️" },
-  { id: 5,  name: "Woven Pendant Light",   price: 129, category: "Decor",       emoji: "💡" },
+  { id: 1,  name: "Luna 3-Seater Sofa",    price: 120000, category: "Living Room", image: "/images/products/sofa.jpg" },
+  { id: 2,  name: "Nova Coffee Table",     price: 35000,  category: "Living Room", image: "/images/products/coffee-table.jpg" },
+  { id: 3,  name: "Elle Accent Chair",     price: 45000,  category: "Living Room", image: "/images/products/accent-chair.jpg" },
+  { id: 4,  name: "Haven Sideboard",       price: 75000,  category: "Living Room", image: "/images/products/sideboard.jpg" },
+  { id: 5,  name: "Woven Pendant Light",   price: 15000,  category: "Decor",       image: "/images/products/pendant-light.jpg" },
   // Bedroom
-  { id: 6,  name: "Drift Bed Frame",        price: 899, category: "Bedroom",     emoji: "🛏️" },
-  { id: 7,  name: "Linen Bedside Table",   price: 189, category: "Bedroom",     emoji: "🪴" },
-  { id: 8,  name: "Arch Floor Lamp",       price: 219, category: "Bedroom",     emoji: "🔆" },
+  { id: 6,  name: "Drift Bed Frame",       price: 95000,  category: "Bedroom",     image: "/images/products/bed-frame.jpg" },
+  { id: 7,  name: "Linen Bedside Table",   price: 22000,  category: "Bedroom",     image: "/images/products/bedside-table.jpg" },
+  { id: 8,  name: "Arch Floor Lamp",       price: 25000,  category: "Bedroom",     image: "/images/products/floor-lamp.jpg" },
   // Dining Room
-  { id: 9,  name: "Oak Dining Table",       price: 1099, category: "Dining Room", emoji: "🍽️" },
-  { id: 10, name: "Rattan Dining Chair",   price: 249, category: "Dining Room", emoji: "🪑" },
-  { id: 11, name: "Linen Pendant Set",     price: 179, category: "Dining Room", emoji: "💡" },
+  { id: 9,  name: "Oak Dining Table",      price: 140000, category: "Dining Room", image: "/images/products/dining-table.jpg" },
+  { id: 10, name: "Rattan Dining Chair",   price: 28000,  category: "Dining Room", image: "/images/products/dining-chair.jpg" },
+  { id: 11, name: "Linen Pendant Set",     price: 20000,  category: "Dining Room", image: "/images/products/dining-pendant.jpg" },
   // Office
-  { id: 12, name: "Solid Oak Desk",         price: 649, category: "Office",      emoji: "🖥️" },
-  { id: 13, name: "Ergonomic Desk Chair",  price: 449, category: "Office",      emoji: "💺" },
+  { id: 12, name: "Solid Oak Desk",        price: 85000,  category: "Office",      image: "/images/products/desk.jpg" },
+  { id: 13, name: "Ergonomic Desk Chair",  price: 55000,  category: "Office",      image: "/images/products/desk-chair.jpg" },
   // Outdoor
-  { id: 14, name: "Teak Garden Bench",     price: 399, category: "Outdoor",     emoji: "🌿" },
-  { id: 15, name: "Rope Lounge Chair",     price: 499, category: "Outdoor",     emoji: "🪢" },
+  { id: 14, name: "Teak Garden Bench",     price: 48000,  category: "Outdoor",     image: "/images/products/garden-bench.jpg" },
+  { id: 15, name: "Rope Lounge Chair",     price: 60000,  category: "Outdoor",     image: "/images/products/lounge-chair.jpg" },
 ]
 
 export const categoryList = [
@@ -34,8 +34,8 @@ export const categoryList = [
 ]
 
 export const priceRanges = [
-  { label: "Under $200",    min: 0,   max: 200 },
-  { label: "$200 – $500",   min: 200, max: 500 },
-  { label: "$500 – $1000",  min: 500, max: 1000 },
-  { label: "Over $1000",    min: 1000, max: Infinity },
+  { label: "Under KSh 30,000",        min: 0,      max: 30000 },
+  { label: "KSh 30,000 – KSh 60,000",  min: 30000,  max: 60000 },
+  { label: "KSh 60,000 – KSh 100,000", min: 60000,  max: 100000 },
+  { label: "Over KSh 100,000",        min: 100000, max: Infinity },
 ]

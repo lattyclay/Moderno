@@ -1,7 +1,37 @@
 export const categories = [
-  { id: 1, name: "Living Room", icon: "Sofa",        emoji: "🛋️", slug: "living-room" },
-  { id: 2, name: "Dining Room", icon: "UtensilsCrossed", emoji: "🪑", slug: "dining-room" },
-  { id: 3, name: "Bedroom",     icon: "Bed",         emoji: "🛏️", slug: "bedroom" },
-  { id: 4, name: "Office",      icon: "Monitor",     emoji: "💻", slug: "office" },
-  { id: 5, name: "Outdoor",     icon: "Trees",       emoji: "🌿", slug: "outdoor" },
+  { 
+    id: 1, 
+    name: "Living Room", 
+    icon: "Sofa",        
+    slug: "living-room",
+    image: "/images/products/categories/living-room.jpg" 
+  },
+  { 
+    id: 2, 
+    name: "Dining Room", 
+    icon: "UtensilsCrossed", 
+    slug: "dining-room",
+    image: "/images/products/categories/dining-room.jpg" 
+  },
+  { 
+    id: 3, 
+    name: "Bedroom",     
+    icon: "Bed",         
+    slug: "bedroom",
+    image: "/images/products/categories/bedroom.jpg" 
+  },
+  { 
+    id: 4, 
+    name: "Office",      
+    icon: "Monitor",     
+    slug: "office",
+    image: "/images/products/categories/office.jpg" 
+  },
+  { 
+    id: 5, 
+    name: "Outdoor",     
+    icon: "Trees",       
+    slug: "outdoor",
+    image: "/images/categories/outdoor.jpg" 
+  },
 ]

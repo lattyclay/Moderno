@@ -1,5 +1,6 @@
 import * as Icons from 'lucide-react'
 import { stats, recentOrders } from '../data/dashboardStats'
+import { formatKES } from '../utils/currency'
 
 const statusStyle = {
   delivered:  "bg-green-100 text-green-700",

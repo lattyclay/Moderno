@@ -2,55 +2,55 @@ export const blogPosts = [
   {
     id: 1,
     title: "5 Ways to Style a Small Living Room",
-    excerpt: "Small spaces don't mean small style. Learn how to make every square foot count with clever furniture choices and layout tricks.",
+    image: "/images/blog/blog-1.jpg",
     category: "Interior Tips",
     date: "June 10, 2026",
     readTime: "4 min read",
-    emoji: "🛋️",
+    excerpt: "Small spaces don't mean small style. Learn how to make every square foot count."
   },
   {
     id: 2,
     title: "The Rise of Sustainable Furniture",
-    excerpt: "Consumers are demanding more from brands. We look at how eco-conscious design is reshaping the furniture industry in 2026.",
+    image: "/images/blog/blog-1.jpg",
     category: "Sustainability",
     date: "May 28, 2026",
     readTime: "6 min read",
-    emoji: "🌿",
+    excerpt: "How eco-conscious design is reshaping the furniture industry in 2026."
   },
   {
     id: 3,
     title: "Home Office Setup Guide 2026",
-    excerpt: "Working from home is here to stay. Build the perfect productive space with the right desk, chair, lighting, and layout.",
+    image: "/images/blog/blog-1.jpg",
     category: "Home Office",
     date: "May 14, 2026",
     readTime: "5 min read",
-    emoji: "💻",
+    excerpt: "Build the perfect productive space with the right desk, chair, and layout."
   },
   {
     id: 4,
     title: "Bedroom Colour Palettes That Help You Sleep",
-    excerpt: "Colour psychology is real. Discover which tones calm the mind, promote rest, and make your bedroom a true sanctuary.",
+    image: "/images/blog/blog-1.jpg",
     category: "Bedroom",
     date: "April 30, 2026",
     readTime: "3 min read",
-    emoji: "🛏️",
+    excerpt: "Discover which tones calm the mind and make your bedroom a sanctuary."
   },
   {
     id: 5,
     title: "Dining Tables: Round vs Rectangular",
-    excerpt: "Which shape suits your space and lifestyle? We break down the pros and cons so you can decide with confidence.",
+    image: "/images/blog/blog-1.jpg",
     category: "Dining Room",
     date: "April 12, 2026",
     readTime: "4 min read",
-    emoji: "🍽️",
+    excerpt: "Which shape suits your space? We break down the pros and cons."
   },
   {
     id: 6,
     title: "Outdoor Living: Extend Your Space",
-    excerpt: "Your garden or balcony is an extra room waiting to happen. Here's how to furnish it for comfort and style all year round.",
+    image: "/images/blog/blog-1.jpg",
     category: "Outdoor",
     date: "March 25, 2026",
     readTime: "5 min read",
-    emoji: "🌿",
-  },
-]
+    excerpt: "Your garden is an extra room waiting to happen. Here's how to furnish it."
+  }
+];

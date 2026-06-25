@@ -1,5 +1,6 @@
 import { ShoppingCart } from 'lucide-react'
 import { useCart } from '../context/CartContext'
+import { formatKES } from '../utils/currency'
 
 export default function ProductCard({ product }) {
   const { addToCart } = useCart()

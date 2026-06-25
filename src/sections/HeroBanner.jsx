@@ -8,11 +8,7 @@ import hero3 from '../assets/images/hero3.jpg'
 import hero4 from '../assets/images/hero4.jpg'
 import hero5 from '../assets/images/hero5.jpg'
 import hero6 from '../assets/images/hero6.jpg'
-import hero7 from '../assets/images/hero7.jpg'
-import hero8 from '../assets/images/hero8.jpg'
-import hero9 from '../assets/images/hero9.jpg'
-import hero10 from '../assets/images/hero10.jpg'
-import hero11 from '../assets/images/hero11.jpg'
+
 
 
 const slides = [
@@ -21,21 +17,21 @@ const slides = [
     eyebrow: "Modern Designs. Timeless Comfort.",
     headline: ["Furniture", "That Defines", "Your Space"],
     body: "Discover curated collections that blend style, functionality and quality for every corner of your home.",
-    image: hero6
+    image: hero2
   },
   {
     id: 1,
     eyebrow: "Refresh Your Bedroom.",
     headline: ["Sleep", "In Style", "Every Night"],
     body: "Handcrafted beds and storage designed for rest, comfort, and beautiful mornings.",
-    image: hero8,
+    image: hero6,
   },
   {
     id: 2,
     eyebrow: "WORK FROM HOME, IN STYLE.",
     headline: ["Your Office", "Your Rules", "Your Look"],
     body: "Ergonomic desks and chairs that make your workspace as inspiring as your ideas.",
-    image: hero7,
+    image: hero3,
   },
 
 // 2. Add these objects to your data array:
@@ -44,21 +40,21 @@ const slides = [
     eyebrow: "THE HEART OF THE HOME.",
     headline: ["Culinary Spaces", "Modern Design", "Smart Storage"],
     body: "Minimalist cabinetry and sleek countertops that turn everyday cooking into an experience.",
-    image: hero10,
+    image: hero1,
   },
   {
     id: 4,
     eyebrow: "LOUNGE WITHOUT BOUNDARIES.",
     headline: ["Open Skies", "Pure Comfort", "Weather Proof"],
     body: "Durable luxury sofas and dining sets engineered to blend seamlessly with your landscape.",
-    image: hero11, // Replace with your actual imported image variable
+    image: hero4, // Replace with your actual imported image variable
   },
   {
     id: 5,
     eyebrow: "YOUR PRIVATE SANCTUARY.",
     headline: ["Clean Lines", "Calming Tones", "Spa Quality"],
     body: "Elegant vanities and matte fixtures designed to turn your bathroom into a personal retreat.",
-    image: hero9, 
+    image: hero5, 
   },
 
 ]

@@ -1,7 +1,7 @@
 export const badges = [
   { id: 1, icon: "truck", 
            title: "Free Shipping",  
-            subtitle: "On all orders over $100" },
+            subtitle: "On all orders over 100K" },
 
   { id: 2, icon: "shield-check", 
     title: "Secure Payment", 

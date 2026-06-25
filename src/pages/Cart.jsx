@@ -1,6 +1,7 @@
 import { useCart } from '../context/CartContext'
 import { Trash2, Plus, Minus } from 'lucide-react'
 import { Link } from 'react-router-dom'
+import { formatKES } from '../utils/currency'
 
 export default function Cart() {
   const { cartItems, updateQty, removeFromCart, cartCount } = useCart()
